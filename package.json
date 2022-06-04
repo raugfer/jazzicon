@@ -1,11 +1,12 @@
 {
   "name": "@raugfer/jazzicon",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Jazzicon SVG Generator",
   "keywords": [
     "Ethereum",
     "Jazzicon",
-    "SVG"
+    "SVG",
+    "Identicons"
   ],
   "main": "lib/index.js",
   "types": "types/index.d.ts",
