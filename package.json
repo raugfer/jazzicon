@@ -1,6 +1,6 @@
 {
   "name": "@raugfer/jazzicon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Jazzicon SVG Generator",
   "keywords": [
     "Ethereum",
@@ -26,6 +26,9 @@
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
