@@ -1,6 +1,6 @@
 # Jazzicon SVG Generator
 
-A simple Jazzicon SVG Generator for Ethereum addresses.
+A simple [Jazzicon](https://github.com/danfinlay/jazzicon) SVG Generator for Ethereum addresses.
 
 ## Installation
 
