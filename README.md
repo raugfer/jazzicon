@@ -11,11 +11,15 @@ npm i @raugfer/jazzicon
 ## Usage
 
 ```typescript jsx
-// sample code for react component
 import Jazzicon from '@raugfer/jazzicon';
 
+function buildDataUrl(address: string): string {
+  return 'data:image/svg+xml;base64,' + btoa(Jazzicon(address));
+}
+
+// sample code for react component
 export default function JazziconImage({ address }: { address: string }) {
-  const imageUrl = 'data:image/svg+xml;base64,' + btoa(Jazzicon(address));
+  const imageUrl = buildDataUrl(address);
   return (
     <img src={imageUrl} alt="Jazzicon" />
   );
