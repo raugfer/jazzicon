@@ -5,7 +5,8 @@
     "module": "commonjs",
     "esModuleInterop": true,
 
-    "outDir": "build",
+    "outDir": "lib",
+    "declarationDir": "types",
     "declaration": true,
     "removeComments": true,
     "noEmitOnError": true,
@@ -32,6 +33,6 @@
     "allowUnreachableCode": false
   },
   "include": [
-    "src/**/*"
+    "src"
   ]
 }

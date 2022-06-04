@@ -1,12 +1,17 @@
 {
   "name": "@raugfer/jazzicon",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Jazzicon SVG Generator",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "keywords": [
+    "Ethereum",
+    "Jazzicon",
+    "SVG"
+  ],
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "files": [
-    "build/**/*.js",
-    "build/**/*.d.ts"
+    "lib",
+    "types"
   ],
   "devDependencies": {
     "@types/color": "^3.0.3",
