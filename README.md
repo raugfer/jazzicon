@@ -13,6 +13,7 @@ npm i @raugfer/jazzicon
 ```typescript jsx
 import Jazzicon from '@raugfer/jazzicon';
 
+// builds an image data url for embedding
 function buildDataUrl(address: string): string {
   return 'data:image/svg+xml;base64,' + btoa(Jazzicon(address));
 }
